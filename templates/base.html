@@ -21,11 +21,9 @@
         <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
             <li><a href="{{url_for('index')}}" class="nav-link px-2 link-secondary">Главная</a></li>
             <li><a href="{{url_for('posts')}}" class="nav-link px-2">Все записи</a></li>
-                <li><a href="{{url_for('create')}}" class="nav-link px-2">Статьи</a></li>
+            <li><a href="{{url_for('create')}}" class="nav-link px-2">Добавление записи</a></li>
         </ul>
         <div class="col-md-3 text-end">
-            <button type="button" class="btn btn-outline-primary me-2"><ya-tr-span data-index="8-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Login" data-translation="Войти" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Войти</ya-tr-span></button>
-            <button type="button" class="btn btn-primary"><ya-tr-span data-index="8-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Sign-up" data-translation="Зарегистрироваться" data-ch="0" data-type="trSpan" style="visibility: inherit !important;">Зарегистрироваться</ya-tr-span></button>
         </div>
     </header>
     {%block body%}  {%endblock%}
